@@ -2,7 +2,7 @@
 
 Instructions to install and configure the Mac backup box script. The script uses rsync and perdioically runs from cron to copy any changes to files/folders you define on your Mac to your personal Box folder.
 
-1. Create backup folder on your box folder\
+1. Create backup folder in your personal box folder\
 ```mkdir /Users/$USER/Library/CloudStorage/Box-Box/My\ Box\ Notes/backup/```
 
 2. Install backup script\
