@@ -11,7 +11,7 @@ Instructions to install and configure the Mac backup box script. The script uses
 ```cd mac-box-backup```\
 Update folder-file-list.txt with list of folder / files to backup, 1 item per line\
 ```vi folder-file-list.txt```\
-Save and exit
+Save and exit with :wq
 
 4. Give cron full disk access to allow backup script to write files\
 First open the folder contain cron\
@@ -22,4 +22,5 @@ Drag and drop the cron application from the Finder window into Full Disk Access 
 
 5. Setup cronjob to run hourly\
 ```crontab -e```\
-```0 * * * * ~/mac-box-backup/backup.sh ~/mac-box-backup/folder-file-list.txt```
+```0 * * * * ~/mac-box-backup/backup.sh ~/mac-box-backup/folder-file-list.txt```\
+Save and exit with :wq
