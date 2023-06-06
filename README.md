@@ -18,7 +18,7 @@ First open the folder contain cron\
 ```open /usr/sbin/```\
 Then open Apple -> System Settings -> Privacy & Security -> Full Disk Access.\
 Drag and drop the cron application from the Finder window into Full Disk Access window.\
-![Cron full disk](/images/cron-full-disk.png)
+![Cron full disk](/image/cron-full-disk.png)
 
 5. Setup cronjob to run hourly\
 ```crontab -e```\
