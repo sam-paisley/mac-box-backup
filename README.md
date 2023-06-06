@@ -20,5 +20,5 @@ Then open Apple -> System Settings -> Privacy & Security -> Full Disk Access.\
 Drag and drop the cron application from the Finder window into Full Disk Access window.
 
 5. Setup cronjob to run hourly\
-```crontab -e```
+```crontab -e```\
 ```0 * * * * ~/mac-box-backup/backup.sh ~/mac-box-backup/folder-file-list.txt```
