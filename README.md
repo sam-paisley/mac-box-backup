@@ -23,7 +23,7 @@ Drag and drop the cron application from the Finder window into Full Disk Access 
 ![Cron full disk](/image/cron-full-disk.png)
 
 5. Manually run script. It may take hours to run depending on file sizes\
-```~/mac-box-backup/backup.sh ~/mac-box-backup/folder-file-list.txt```\
+```~/mac-box-backup/backup.sh ~/mac-box-backup/folder-file-list.txt```
 
 6. Setup cronjob to run hourly. Note only new/modified files will be copied to box folder\
 ```crontab -e```\
