@@ -6,8 +6,6 @@ LOG_FILE=~/mac-box-backup/log-rsync.txt
 input=$1
 rm -f LOG_FILE 
 
-echo "I am "$USER
-env
 echo "Sync to box folder started at "$(date +"%T")
 while read -r file
 do
