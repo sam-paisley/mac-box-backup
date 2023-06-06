@@ -1,3 +1,5 @@
+### Setup instructions 
+
 Instructions to install and configure the Mac backup box script. The script uses rsync and perdioically runs from cron to copy any changes to files/folders you define on your Mac to your personal Box folder.
 
 1. Create backup folder on your box folder\
