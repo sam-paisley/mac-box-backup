@@ -11,7 +11,7 @@ Instructions to install and configure the Mac backup box script. The script uses
 
 3. Configure list of files/folders to backup\
 ```cd mac-box-backup```\
-Update folder-file-list.txt with list of folder / files to backup, 1 item per line\
+Update folder-file-list.txt with list of folder / files to backup, 1 item per line and use full path\
 ```vi folder-file-list.txt```\
 Save and exit with :wq
 
