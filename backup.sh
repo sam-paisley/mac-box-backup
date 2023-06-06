@@ -1,6 +1,5 @@
 #!/bin/bash
 
-USER=$(whoami)
 BACKUP_DIR="/Users/$USER/Library/CloudStorage/Box-Box/My Box Notes/backup/"
 LOG_FILE=~/mac-box-backup/log-rsync.txt
 input=$1
